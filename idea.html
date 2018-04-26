@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <title>Все для загородного отдыха в Москве. Продажа грилей, барбекю, садовой мебели, уличных обогревателей в интернет-магазине Village Club</title>
+    <meta name="description" content="Project Description"/>
+    <meta name="keywords" content="Project keywords"/>
+    
+    <!--icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/touch/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/touch/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/touch/manifest.json">
+    <link rel="mask-icon" href="images/touch/safari-pinned-tab.svg" color="#5eb829">
+    <link rel="shortcut icon" href="images/touch/favicon.ico">
+    <meta name="msapplication-config" content="images/touch/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta property="og:site_name" content="Project Name"/>
+    <meta property="og:url" content="https://site.com"/>
+    <meta property="og:title" content="Project Title"/>
+    <meta property="og:description" content="Project Description"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://site.com/logosocial.png"/>
+    
+    <!--STYLE-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <svg class="icon-logo"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-logo"></use></svg>
+    </div>
+    
+    <!--HEADER-->
+    <header>
+        <div class="header-frame">
+            <div class="inner">
+                <div class="header-logo">
+                    <a href="main.html">
+                        <svg class="icon-logo">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-logo"></use>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="header-trigger nav-trigger">
+                    <svg class="icon-hamburger">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-hamburger"></use>
+                    </svg>
+                    <div class="close-trigger">
+                        <svg class="icon-cross">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cross"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="header-trigger feedback-trigger">
+                    <svg class="icon-call">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-call"></use>
+                    </svg>
+                    <div class="close-trigger">
+                        <svg class="icon-cross">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cross"></use>
+                        </svg>
+                    </div>
+                </div>
+                
+                <a class="cart-link" href="cart.html">
+                    <svg class="icon-bag">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-bag"></use>
+                    </svg>
+                    <span>4</span>
+                </a>
+                <div class="header-trigger user-trigger">
+                    <svg class="icon-user">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use>
+                    </svg>
+                    <div class="close-trigger">
+                        <svg class="icon-cross">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cross"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mobile-nav">
+            <nav class="mobile-nav-holder"></nav>
+            <div class="mobile-nav-items"></div>
+        </div>
+        <div class="mobile-nav-close"></div>
+        <div class="mobile-nav-btn">
+            <div></div>
+        </div>
+        
+        <div class="header-dropdown nav-dropdown">
+            <div class="column">
+                <form class="dropdown-search">
+                    <input class="text-input" name="search" type="search" placeholder="Поиск"/>
+                    <button class="green-butn" type="submit">Искать</button>
+                </form>
+                <div class="column-scroll">
+                    <nav class="column-content">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="catalogue.html" class="red-color">Sale</a>
+                            </li>
+                            <li>
+                                <a href="ideas-list.html" class="yellow-color">Идеи</a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-1">
+                                    Грили и мангалы
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-2">
+                                    Садовая мебель
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-3">
+                                    Уличное оборудование
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-4">
+                                    Для дома
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-5">
+                                    Отдых и пикник
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-6">
+                                    Инжениринг
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-7">
+                                    Услуги
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-8">
+                                    Информация
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="subnav-trigger" data-target="subnav-9">
+                                    Журнал
+                                    <svg class="icon-arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        <div class="dropdown-feedback">
+                            <div class="call">
+                                <a class="call-to call-butn" href="tel:74951501918">
+                                    <svg class="icon-call"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-call"></use></svg>
+                                </a>
+                                <span>
+                                    <span class="title">Свяжитесь с нами:</span>
+                                    <a href="tel:74951501918" class="call-to">+7 (495) 150-19-18</a>
+                                </span>
+                            </div>
+                            <div class="schedule">
+                                Часы работы:
+                                <span>10:00 – 20:00, выходной – воскресенье</span>
+                            </div>
+                            <button class="green-butn" type="button">Шоу-рум на 1905 года</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="column subnav-column" data-subnav="subnav-1">
+                <div class="subnav-back">
+                    Грили и мангалы
+                    <svg class="icon-arrow-left"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-left"></use></svg>
+                </div>
+                <div class="column-scroll">
+                    <div class="column-content">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="catalogue.html">
+                                    Угольные грили
+                                    <svg class="icon-category-7"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-category-7"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalogue.html">
+                                    Газовые грили
+                                    <svg class="icon-category-5"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-category-5"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalogue.html">
+                                    Керамические грили
+                                    <svg class="icon-category-4"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-category-4"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalogue.html">
+                                    Дровяные грили
+                                    <svg class="icon-category-6"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-category-6"></use></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column subnav-column" data-subnav="subnav-2">
+                <div class="subnav-back">
+                    Садовая мебель
+                    <svg class="icon-arrow-left"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-left"></use></svg>
+                </div>
+                <div class="column-scroll">
+                    <div class="column-content">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="catalogue.html">
+                                    Угольные грили
+                                    <svg class="icon-category-7"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-category-7"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalogue.html">
+                                    Дровяные грили
+                                    <svg class="icon-category-6"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-category-6"></use></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dropdown-close"></div>
+        </div>
+        
+        <div class="header-dropdown feedback-dropdown">
+            <div class="column">
+                <div class="column-scroll no-top-gap">
+                    <div class="column-content">
+                        <div class="dropdown-feedback">
+                            <form id="dropdown-feedback">
+                                <div class="title">Оставьте свой телефон <br/>и мы перезвоним вам</div>
+                                <div class="input-line">
+                                    <input class="text-input" name="phone" type="tel" title="Номер телефона" placeholder="+7 (___) ___-__-__"/>
+                                </div>
+                                <button class="green-butn" type="submit">Оправить</button>
+                            </form>
+                            <div class="call">
+                                <a class="call-to call-butn" href="tel:74951501918">
+                                    <svg class="icon-call"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-call"></use></svg>
+                                </a>
+                                <span>
+                                    <span class="title">Или свяжитесь с нами:</span>
+                                    <a href="tel:74951501918" class="call-to">+7 (495) 150-19-18</a>
+                                </span>
+                            </div>
+                            <div class="schedule">
+                                Часы работы:
+                                <span>10:00 – 20:00, выходной – воскресенье</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown-close"></div>
+        </div>
+        
+        <div class="header-dropdown user-dropdown right-position">
+            <div class="column">
+                <div class="column-scroll">
+                    <div class="column-content">
+                        <ul class="user-nav">
+                            <li>
+                                <a href="favorite-products.html">
+                                    <span>Избранное</span>
+                                    <span>(22)</span>
+                                    <svg class="icon-favorite"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="viewed.html">
+                                    <span>ПРосмотренные</span>
+                                    <span>(12)</span>
+                                    <svg class="icon-eye"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-eye"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="compare-category.html">
+                                    <span>Сравнение</span>
+                                    <span>(3)</span>
+                                    <svg class="icon-compare"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="modal-trigger" data-target="login-modal">
+                                    <span>Вход /Регистрация</span>
+                                    <span></span>
+                                    <svg class="icon-login"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-login"></use></svg>
+                                    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="dropdown-info">
+                    <p>А знаете ли вы что при заказе от 25 000р мы дарим бесплатную доставку по всей Росии!</p>
+                </div>
+            </div>
+            <div class="dropdown-close"></div>
+        </div>
+    </header>
+    <!--end of HEADER-->
+    
+    <!--MAIN-->
+    <main class="main">
+        <!--breadcrumbs-->
+        <ul class="breadcrumbs">
+            <li>
+                <a href="main.html"><svg class="icon-arrow-left-2"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-left-2"></use></svg></a>
+            </li>
+            <li>
+                <a href="main.html">Главная</a>
+            </li>
+        </ul>
+        <!-- end of breadcrumbs-->
+        
+        <!--idea-->
+        <article class="idea">
+            <div class="idea-banner">
+                <div class="frame">
+                    <div class="page-row">
+                        <div class="page-cell">
+                            <div class="inner">
+                                <div class="content-title"><h1>Лучший cулья для завтрака в саду</h1></div>
+                                <p>Inside a converted filling station outside grounded in creativity and a sense of belonging. conflicted children and adults with autism spectrum by dedicated teachers and volunteers</p>
+                                <span>121 товар</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <picture>
+                    <source media="(max-width:560px)" srcset="images/about-banner-320.jpg, images/about-banner-320@2x.jpg 2x"/>
+                    <source media="(max-width:768px)" srcset="images/about-banner-768.jpg, images/about-banner-768@2x.jpg 2x"/>
+                    <source srcset="images/about-banner.jpg, images/about-banner@2x.jpg 2x"/>
+                    <img src="images/about-banner.jpg" alt=""/>
+                </picture>
+            </div>
+    
+            <div class="catalogue-list">
+                <div class="inner">
+                    <div class="catalogue-list-item">
+                        <div class="product-item">
+                            <div class="product-item-frame">
+                                <div class="image">
+                                    <a href="product.html">
+                                        <picture>
+                                            <source srcset="images/product-2.jpg, images/product-2@2x.jpg 2x"/>
+                                            <img src="images/product-2.jpg" alt=""/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="content-holder">
+                                        <p>Гриль угольный со складным столиком и решеткой GBS Weber Performer Original GBS</p>
+                                        <div class="price">
+                                            <span>43 000</span>
+                                            р.
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="action-buttons">
+                                    <button class="compare-action-butn" type="button">
+                                        <svg class="icon-compare-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare-active"></use>
+                                        </svg>
+                                        <svg class="icon-compare">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="favorite-action-butn" type="button">
+                                        <svg class="icon-favorite-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite-active"></use>
+                                        </svg>
+                                        <svg class="icon-favorite">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="catalogue-list-item">
+                        <div class="product-item">
+                            <div class="product-item-frame">
+                                <div class="image">
+                                    <a href="product.html">
+                                        <picture>
+                                            <source srcset="images/product-1.jpg, images/product-1@2x.jpg 2x"/>
+                                            <img src="images/product-1.jpg" alt=""/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="content-holder">
+                                        <p>Гриль угольный со складным столиком и решеткой GBS Weber Performer Original GBS</p>
+                                        <div class="price">
+                                            <span>43 000</span>
+                                            р.
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="action-buttons">
+                                    <button class="compare-action-butn" type="button">
+                                        <svg class="icon-compare-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare-active"></use>
+                                        </svg>
+                                        <svg class="icon-compare">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="favorite-action-butn" type="button">
+                                        <svg class="icon-favorite-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite-active"></use>
+                                        </svg>
+                                        <svg class="icon-favorite">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="catalogue-list-item">
+                        <div class="product-item">
+                            <div class="product-item-frame">
+                                <div class="image">
+                                    <a href="product.html">
+                                        <picture>
+                                            <source srcset="images/product-2.jpg, images/product-2@2x.jpg 2x"/>
+                                            <img src="images/product-2.jpg" alt=""/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="content-holder">
+                                        <p>Гриль угольный со складным столиком и решеткой GBS Weber Performer Original GBS</p>
+                                        <div class="price">
+                                            <span>43 000</span>
+                                            р.
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="action-buttons">
+                                    <button class="compare-action-butn" type="button">
+                                        <svg class="icon-compare-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare-active"></use>
+                                        </svg>
+                                        <svg class="icon-compare">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="favorite-action-butn" type="button">
+                                        <svg class="icon-favorite-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite-active"></use>
+                                        </svg>
+                                        <svg class="icon-favorite">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="idea-description">
+                <div class="inner">
+                    <div class="frame">
+                        <div class="page-row">
+                            <div class="page-cell">
+                                <div class="content-title"><h2>Стулья</h2></div>
+                                <p>Need it in a hurry? From headboards to
+                                   ottomans, every one of these pieces is ready
+                                   to ship in 11 days or less—giving you more
+                                   time to enjoy your gorgeous new decor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+    
+            <div class="catalogue-list">
+                <div class="inner">
+                    <div class="catalogue-list-item">
+                        <div class="product-item">
+                            <div class="product-item-frame">
+                                <div class="image">
+                                    <a href="product.html">
+                                        <picture>
+                                            <source srcset="images/product-2.jpg, images/product-2@2x.jpg 2x"/>
+                                            <img src="images/product-2.jpg" alt=""/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="content-holder">
+                                        <p>Гриль угольный со складным столиком и решеткой GBS Weber Performer Original GBS</p>
+                                        <div class="price">
+                                            <span>43 000</span>
+                                            р.
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="action-buttons">
+                                    <button class="compare-action-butn" type="button">
+                                        <svg class="icon-compare-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare-active"></use>
+                                        </svg>
+                                        <svg class="icon-compare">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="favorite-action-butn" type="button">
+                                        <svg class="icon-favorite-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite-active"></use>
+                                        </svg>
+                                        <svg class="icon-favorite">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="catalogue-list-item">
+                        <div class="product-item">
+                            <div class="product-item-frame">
+                                <div class="image">
+                                    <a href="product.html">
+                                        <picture>
+                                            <source srcset="images/product-2.jpg, images/product-2@2x.jpg 2x"/>
+                                            <img src="images/product-2.jpg" alt=""/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="content-holder">
+                                        <p>Гриль угольный со складным столиком и решеткой GBS Weber Performer Original GBS</p>
+                                        <div class="price">
+                                            <span>43 000</span>
+                                            р.
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="action-buttons">
+                                    <button class="compare-action-butn" type="button">
+                                        <svg class="icon-compare-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare-active"></use>
+                                        </svg>
+                                        <svg class="icon-compare">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="favorite-action-butn" type="button">
+                                        <svg class="icon-favorite-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite-active"></use>
+                                        </svg>
+                                        <svg class="icon-favorite">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="catalogue-list-item">
+                        <div class="product-item">
+                            <div class="product-item-frame">
+                                <div class="image">
+                                    <a href="product.html">
+                                        <picture>
+                                            <source srcset="images/product-2.jpg, images/product-2@2x.jpg 2x"/>
+                                            <img src="images/product-2.jpg" alt=""/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="content-holder">
+                                        <p>Гриль угольный со складным столиком и решеткой GBS Weber Performer Original GBS</p>
+                                        <div class="price">
+                                            <span>43 000</span>
+                                            р.
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="action-buttons">
+                                    <button class="compare-action-butn" type="button">
+                                        <svg class="icon-compare-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare-active"></use>
+                                        </svg>
+                                        <svg class="icon-compare">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="favorite-action-butn" type="button">
+                                        <svg class="icon-favorite-active">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite-active"></use>
+                                        </svg>
+                                        <svg class="icon-favorite">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- end of idea-->
+
+
+        <!--partners-->
+        <section class="partners">
+            <div class="inner">
+                <div class="content-title">
+                    <h2>Бренды</h2>
+                </div>
+    
+                <div class="partners-slider">
+                    <div class="slide">
+                        <div class="partners-item">
+                            <div class="frame">
+                                <div class="page-row">
+                                    <div class="page-cell">
+                                        <picture>
+                                            <source srcset="images/partner-1.jpg, images/partner-1@2x.jpg 2x"/>
+                                            <img src="images/partner-1.jpg" alt=""/>
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="partners-item">
+                            <div class="frame">
+                                <div class="page-row">
+                                    <div class="page-cell">
+                                        <picture>
+                                            <source srcset="images/partner-2.jpg, images/partner-2@2x.jpg 2x"/>
+                                            <img src="images/partner-2.jpg" alt=""/>
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="partners-item">
+                            <div class="frame">
+                                <div class="page-row">
+                                    <div class="page-cell">
+                                        <picture>
+                                            <source srcset="images/partner-3.jpg, images/partner-3@2x.jpg 2x"/>
+                                            <img src="images/partner-3.jpg" alt=""/>
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="partners-item">
+                            <div class="frame">
+                                <div class="page-row">
+                                    <div class="page-cell">
+                                        <picture>
+                                            <source srcset="images/partner-4.jpg, images/partner-4@2x.jpg 2x"/>
+                                            <img src="images/partner-4.jpg" alt=""/>
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="partners-item">
+                            <div class="frame">
+                                <div class="page-row">
+                                    <div class="page-cell">
+                                        <picture>
+                                            <source srcset="images/partner-5.jpg, images/partner-5@2x.jpg 2x"/>
+                                            <img src="images/partner-5.jpg" alt=""/>
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="partners-item">
+                            <div class="frame">
+                                <div class="page-row">
+                                    <div class="page-cell">
+                                        <picture>
+                                            <source srcset="images/partner-6.jpg, images/partner-6@2x.jpg 2x"/>
+                                            <img src="images/partner-6.jpg" alt=""/>
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="partners-item">
+                            <div class="frame">
+                                <div class="page-row">
+                                    <div class="page-cell">
+                                        <picture>
+                                            <source srcset="images/partner-3.jpg, images/partner-3@2x.jpg 2x"/>
+                                            <img src="images/partner-3.jpg" alt=""/>
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of partners-->
+
+        <!--tags-->
+        <section class="tags">
+            <div class="inner">
+                <div class="content-title">
+                    <h2>Теги</h2>
+                </div>
+            
+                <ul>
+                    <li>
+                        <a href="#">Мангал для мам</a>
+                    </li>
+                    <li>
+                        <a href="#">Подарки</a>
+                    </li>
+                    <li>
+                        <a href="#">Гриль в подарок</a>
+                    </li>
+                    <li>
+                        <a href="#">Грили для дачи</a>
+                    </li>
+                    <li>
+                        <a href="#">Коптильни</a>
+                    </li>
+                    <li>
+                        <a href="#">Газовые грили</a>
+                    </li>
+                    <li>
+                        <a href="#">Распродажа грилей</a>
+                    </li>
+                    <li>
+                        <a href="#">Распродажа грилей</a>
+                    </li>
+                    <li>
+                        <a href="#">Гриль в подарок</a>
+                    </li>
+                    <li>
+                        <a href="#">Мангал для мам</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- end of tags-->
+    </main>
+    <!--end of MAIN-->
+    
+    <!--FOOTER-->
+    <footer>
+        <div class="inner">
+            <div class="footer-subscribe">
+                <p>Подпишиьесь и получите клубную карту дающую скидку до 3% на наши товары</p>
+                <form id="footer-form">
+                    <input class="text-input" name="email" type="email" placeholder="E-mail"/>
+                    <button class="subscribe-butn" type="submit">
+                        <svg class="icon-mail"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use></svg>
+                    </button>
+                </form>
+            </div>
+            
+            <div class="footer-social">
+                <a href="#" target="_blank" rel="nofollow">
+                    <svg class="icon-youtube"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube"></use></svg>
+                </a>
+                <a href="#" target="_blank" rel="nofollow">
+                    <svg class="icon-facebook"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use></svg>
+                </a>
+                <a href="#" target="_blank" rel="nofollow">
+                    <svg class="icon-instagram"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-instagram"></use></svg>
+                </a>
+                <a href="#" target="_blank" rel="nofollow">
+                    <svg class="icon-twitter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use></svg>
+                </a>
+            </div>
+            
+            <div class="footer-payment">
+                <div class="icon">
+                    <svg class="icon-payment-visa"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-payment-visa"></use></svg>
+                </div>
+                <div class="icon">
+                    <svg class="icon-payment-mcard"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-payment-mcard"></use></svg>
+                </div>
+                <div class="icon">
+                    <svg class="icon-payment-yandex"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-payment-yandex"></use></svg>
+                </div>
+                <div class="icon wide-icon">
+                    <svg class="icon-payment-yandex-2"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-payment-yandex-2"></use></svg>
+                </div>
+            </div>
+            
+            <small class="footer-info">
+                <span><mark>&copy; 2013-2015 VILLAGE CLUB.</mark> Лучшие товары для загородной жизни.</span>
+                <span>
+                    Powered by
+                    <a href="#" target="_blank" rel="nofollow">Lucky Star</a>
+                </span>
+                <span>
+                    <a href="#">Полная версия сайта</a>
+                </span>
+            </small>
+        </div>
+    </footer>
+    <!--end of FOOTER-->
+    
+    <!--popups-->
+    <div class="popups">
+    
+        <div class="popup cart-popup">
+            <div class="inner">
+                <div class="popup-left">
+                    <p>Товар добавлен в корзину Закажите еще на 1000 р и получите бесплатную доставку</p>
+                </div>
+                <div class="popup-right">
+                    <button class="dismiss-butn" type="button">Позже</button>
+                    <button class="orange-butn" type="button">ОФОРМИТЬ ЗАКАЗ</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="popup compare-popup">
+            <div class="inner">
+                <div class="popup-left low-text">
+                    <p>Товар добавлен в сравнение</p>
+                </div>
+                <div class="popup-right">
+                    <button class="dismiss-butn" type="button">Позже</button>
+                    <button class="green-butn" type="button">Перейти к сравнению</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="popup registration-popup">
+            <div class="inner">
+                <div class="popup-left">
+                    <p>Зарегестрируйтесь чтобы сохраниять и делится любимыми товарами и идеями</p>
+                </div>
+                <div class="popup-right">
+                    <button class="dismiss-butn" type="button">Позже</button>
+                    <button class="green-butn modal-trigger" type="button" data-target="login-modal">Авторизация</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="popup subscribe-popup">
+            <div class="inner">
+                <div class="popup-left">
+                    <p>Хотите получать скидки по клубной карте?</p>
+                </div>
+                <div class="popup-right">
+                    <form class="popup-subscribe" id="popup-subscribe-form">
+                        <div class="form-text">
+                            <label class="input-label" for="email">Ваш E-mail:</label>
+                            <input class="text-input" id="email" name="email" type="email"/>
+                        </div>
+                        <div class="form-buttons">
+                            <button class="green-butn" type="submit">Отправить на поту </button>
+                            <button class="dismiss-butn" type="button">Нет, спасибо</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of popups-->
+    
+    <!--modals-->
+    <div class="modal-holder" id="modal-holder"></div>
+    <!-- end of modals-->
+    
+    <!--ui-icons-->
+    <div id="ui-icons" class="ui-icons"></div>
+    <!--end of ui-icons-->
+    
+    <!--JS-->
+    <script src="js/plugins.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
