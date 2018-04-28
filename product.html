@@ -50,7 +50,7 @@
                 
                 <div class="header-trigger nav-trigger">
                     <svg class="icon-hamburger">
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-hamburger"></use>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-hamburger-2"></use>
                     </svg>
                     <div class="close-trigger">
                         <svg class="icon-cross">
@@ -311,14 +311,6 @@
                                     <svg class="icon-compare"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use></svg>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="modal-trigger" data-target="login-modal">
-                                    <span>Вход /Регистрация</span>
-                                    <span></span>
-                                    <svg class="icon-login"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-login"></use></svg>
-                                    
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -360,22 +352,13 @@
                             
                             <div class="product-slider">
                                 <div class="slide">
-                                    <picture>
-                                        <source srcset="images/product-slide.jpg, images/product-slide@2x.jpg 2x"/>
-                                        <img src="images/product-slide.jpg" alt=""/>
-                                    </picture>
+                                    <img src="images/product-slide.jpg" srcset="images/product-slide@2x.jpg 2x" alt=""/>
                                 </div>
                                 <div class="slide">
-                                    <picture>
-                                        <source srcset="images/product-slide.jpg, images/product-slide@2x.jpg 2x"/>
-                                        <img src="images/product-slide.jpg" alt=""/>
-                                    </picture>
+                                    <img src="images/product-slide.jpg" srcset="images/product-slide@2x.jpg 2x" alt=""/>
                                 </div>
                                 <div class="slide">
-                                    <picture>
-                                        <source srcset="images/product-slide.jpg, images/product-slide@2x.jpg 2x"/>
-                                        <img src="images/product-slide.jpg" alt=""/>
-                                    </picture>
+                                    <img src="images/product-slide.jpg" srcset="images/product-slide@2x.jpg 2x" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -388,7 +371,7 @@
                                     <span>Kvimol KM-0015</span></h1>
                             </div>
                             <div class="action-buttons">
-                                <button class="favorite-action-butn" type="button">
+                                <button class="favorite-action-butn light" type="button">
                                     <svg class="icon-favorite-active">
                                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-favorite-active"></use>
                                     </svg>
@@ -397,7 +380,7 @@
                                     </svg>
                                 </button>
     
-                                <button class="compare-action-butn" type="button">
+                                <button class="compare-action-butn light" type="button">
                                     <svg class="icon-compare-active">
                                         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare-active"></use>
                                     </svg>
@@ -424,6 +407,11 @@
                                 дивана Brafab WISCONSIN GREY
                                 (Дания)
                             </div>
+    
+                            <button class="orange-butn cart-butn" type="button">
+                                <svg class="icon-bag"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-bag"></use></svg>
+                                Купить
+                            </button>
                             
                             <div class="accordion">
                                 <div class="section">
@@ -582,7 +570,8 @@
                                                         <source srcset="images/video-thumb.jpg, images/video-thumb@2x.jpg 2x"/>
                                                         <img src="images/video-thumb.jpg" alt=""/>
                                                     </picture>
-                                                    <a class="fancy fancybox.iframe video-link" href="http://www.youtube.com/v/ZeStnz5c2GI?fs=1&autoplay=1">
+                                                    
+                                                    <a class="video-link" href="http://www.youtube.com/v/ZeStnz5c2GI?fs=1&autoplay=1" data-fancybox="video">
                                                         <svg class="icon-play"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use></svg>
                                                     </a>
                                                 </div>
@@ -598,7 +587,7 @@
                                                         <source srcset="images/video-thumb.jpg, images/video-thumb@2x.jpg 2x"/>
                                                         <img src="images/video-thumb.jpg" alt=""/>
                                                     </picture>
-                                                    <a class="fancy fancybox.iframe video-link" href="http://www.youtube.com/v/ZeStnz5c2GI?fs=1&autoplay=1">
+                                                    <a class="video-link" href="http://www.youtube.com/v/ZeStnz5c2GI?fs=1&autoplay=1" data-fancybox="video">
                                                         <svg class="icon-play"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use></svg>
                                                     </a>
                                                 </div>
@@ -614,7 +603,7 @@
                                                         <source srcset="images/video-thumb.jpg, images/video-thumb@2x.jpg 2x"/>
                                                         <img src="images/video-thumb.jpg" alt=""/>
                                                     </picture>
-                                                    <a class="fancy fancybox.iframe video-link" href="http://www.youtube.com/v/ZeStnz5c2GI?fs=1&autoplay=1">
+                                                    <a class="video-link" href="http://www.youtube.com/v/ZeStnz5c2GI?fs=1&autoplay=1" data-fancybox="video">
                                                         <svg class="icon-play"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use></svg>
                                                     </a>
                                                 </div>
@@ -1162,13 +1151,13 @@
                             <a href="#">Магазин в центре Москвы</a>
                         </div>
                 
+                        <address class="benefits-top-column">
+                            м. "Улица 1905 года", 2-я Звенигородская, д. 12 стр. 1
+                            <span>Яндекс.Навигатор: Village Club 1905</span>
+                        </address>
                         <div class="benefits-top-column">
-                            Наш главный шоу-рум расположен очень удобно: <br/>на 2-ой Звенигородской, м. “Улица 1905 года”, напротив гастро-паба <br/>"Хлеб и вино".
-                        </div>
-                        <div class="benefits-top-column">
-                            <span>Телефон: <a href="tel:84951501918" class="call-to">8(495)150-19-18</a></span>
-                            <span>E-mail:
-                                <a href="mailto:info@villageclub.ru" class="mail-to">info@villageclub.ru</a></span>
+                            <span>Сообщите номер авто:
+                                <a href="tel:84951501918" class="call-to">8(495)150-19-18</a></span>
                             <span>Режим работы: с 11-00 до 21-00, без выходных</span>
                         </div>
                     </div>
@@ -1293,18 +1282,6 @@
     <!--end of FOOTER-->
     
     <!--popups-->
-    <div class="product-order">
-        <div class="order-column">
-            <div class="order-data">
-                Диван из ротанга Kvimol KM-0015
-                <span>59 000 р.</span>
-            </div>
-        </div>
-        <div class="order-column">
-            <button class="orange-butn hide-on-click cart-butn" type="button">ДОБАВИТЬ В КОРЗИНУ</button>
-        </div>
-    </div>
-    
     <div class="popups">
     
         <div class="popup cart-popup">

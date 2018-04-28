@@ -502,7 +502,7 @@ $(function () {
         ]
     });
 
-    $(".products-preview-slider").slick({
+    $(".ideas-preview-slider").slick({
         dots: true,
         arrows: false,
         infinite: true,
@@ -534,6 +534,46 @@ $(function () {
             },
             {
                 breakpoint: 641,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+    
+    $(".products-preview-slider").slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        adaptiveHeight: true,
+        centerMode: false,
+        variableWidth: false,
+        fade: false,
+        autoplay: false,
+        autoplaySpeed: 7000,
+        draggable: true,
+        swipe: true,
+        initialSlide: 0,
+        pauseOnHover: true,
+        vertical: false,
+        focusOnSelect: false,
+        accessibility: false,
+        touchThreshold: 30,
+        
+        responsive: [
+            {
+                breakpoint: 641,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 481,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -1136,7 +1176,7 @@ $(function () {
          }
          });*/
 
-        $(".product-item .image img").each(function () {
+        /*$(".product-item .image img").each(function () {
             var h = $(this).height();
             var w = $(this).width();
 
@@ -1146,6 +1186,11 @@ $(function () {
                     width : 'auto'
                 });
             }
+        });*/
+
+        $(".product-item:not(.product-item--idea) .image").each(function () {
+            var w = $(this).width();
+            $(this).css('height', w);
         });
     });
     // on scroll functions
@@ -1218,13 +1263,13 @@ $(function () {
         stopEvents(e);
     });
 
-    $("a.fancy").fancybox({
+    /*$("a.fancy").fancybox({
         helpers: {
             overlay: {
                 locked: false
             }
         }
-    });
+    });*/
     // end of popups
 
     // remove from favorite

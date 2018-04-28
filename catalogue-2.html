@@ -50,7 +50,7 @@
                 
                 <div class="header-trigger nav-trigger">
                     <svg class="icon-hamburger">
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-hamburger"></use>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-hamburger-2"></use>
                     </svg>
                     <div class="close-trigger">
                         <svg class="icon-cross">
@@ -311,14 +311,6 @@
                                     <svg class="icon-compare"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-compare"></use></svg>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="modal-trigger" data-target="login-modal">
-                                    <span>Вход /Регистрация</span>
-                                    <span></span>
-                                    <svg class="icon-login"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-login"></use></svg>
-                                    
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -356,7 +348,10 @@
             <div class="inner">
                 
                 <div class="catalogue-controls">
-                    <button class="green-butn modal-trigger" type="button" data-target="filters-modal">Фильр</button>
+                    <button class="green-butn modal-trigger" type="button" data-target="filters-modal">
+                        <svg class="icon-filter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-filter"></use></svg>
+                        Фильр
+                    </button>
         
                     <div class="tabs-holder">
                         <span>Сортировать:</span>
@@ -369,56 +364,6 @@
             </div>
             <div class="catalogue-list">
                 <div class="inner">
-            
-                    <div class="catalogue-list-item">
-                        <div class="product-item modal-trigger company-item" data-target="company-modal">
-                            <div class="product-item-frame">
-                                <div class="image">
-                                    <div class="frame">
-                                        <div class="page-row">
-                                            <div class="page-cell">
-                                                <picture>
-                                                    <source srcset="images/partner-1.jpg, images/partner-1@2x.jpg 2x"/>
-                                                    <img src="images/partner-1.jpg" alt=""/>
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <div class="content-holder">
-                                        Голландская компания
-                                        4 Seasons Outdoor
-                                        предлагает широкий
-                                        ассортимент садовой
-                                        мебели — плетеная
-                                        мебель, мебель из тика
-                                        <a href="#">Подробнее</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="catalogue-list-item">
-                        <div class="magazine-preview-item">
-                            <div class="image">
-                                <picture>
-                                    <source srcset="images/post-1.jpg, images/post-1@2x.jpg 2x"/>
-                                    <img src="images/post-1.jpg" alt=""/>
-                                </picture>
-                                <a href="#">
-                                    <span>Обзор</span>
-                                </a>
-                            </div>
-                            <div class="name page-row">
-                                <div class="page-cell">
-                                    <a href="#">Электрочайники KitchenAid Artisan:
-                                                умные красавчики</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
             
                     <div class="catalogue-list-item">
                         <div class="product-item">
@@ -983,9 +928,12 @@
                             </div>
                         </div>
                     </div>
-            
+    
                     <div class="more-button">
-                        <button class="green-butn" type="button">Показать еще</button>
+                        <a href="#" class="green-butn" type="button">
+                            <svg class="icon-loop"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-loop"></use></svg>
+                            Показать еще
+                        </a>
                     </div>
             
                     <!--pager-->
