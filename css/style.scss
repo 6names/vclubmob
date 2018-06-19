@@ -1207,7 +1207,7 @@ footer {
     position: relative;
     z-index: 50;
     width: 100%;
-    min-height: 220px;
+    min-height: 185px;
     padding: 0 15px;
     text-align: center;
     background: $white;
@@ -1220,21 +1220,41 @@ footer {
     }
 }
 
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding-bottom: 15px;
+    color: $whiteButnColor;
+    
+    a {
+        color: $whiteButnColor;
+        text-decoration: underline;
+        
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    
+    span:last-child {
+        margin-left: 10px;
+    }
+}
+
 .footer-subscribe {
     padding: 30px 0 20px 0;
-    @include clear;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
     p {
-        float: left;
-        width: calc(50% - 10px);
+        width: 70px;
         font-size: 12px;
         line-height: 18px;
-        text-align: right;
     }
     
     form {
-        float: right;
-        width: calc(50% - 10px);
+        width: calc(100% - 70px);
         height: 37px;
         border: 1px solid $footerForm;
         background: $white;
@@ -1284,20 +1304,21 @@ footer {
 }
 
 .footer-social {
-    float: left;
-    width: calc(50% - 10px);
-    text-align: right;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
     
     a {
         position: relative;
-        display: inline-block;
+        display: block;
         vertical-align: top;
-        width: 40px;
-        height: 40px;
-        margin: 0 10px;
-        border: 1px solid $footerForm;
+        width: 20px;
+        height: 20px;
         background: $white;
-        border-radius: 21px;
+        
+        &:not(:first-child) {
+            margin-left: 5px;
+        }
         
         svg {
             position: absolute;
@@ -1307,11 +1328,9 @@ footer {
         }
         
         &:hover {
-            border-color: $green;
-            background-color: $green;
             
             svg {
-                fill: $white;
+                fill: $green;
             }
         }
     }
@@ -1341,40 +1360,8 @@ footer {
     }
 }
 
-.footer-payment {
-    float: right;
-    width: calc(50% - 10px);
-    text-align: left;
-    padding: 5px 0 0 0;
-    opacity: 0.7;
-    
-    .icon {
-        position: relative;
-        display: inline-block;
-        vertical-align: top;
-        
-        &:first-child ~ .icon {
-            margin: 0 0 0 6px;
-        }
-        
-        svg {
-            width: 44px;
-            height: 30px;
-            fill: $footerSocial;
-        }
-        
-        &.wide-icon svg {
-            width: 96px;
-        }
-    }
-    
-    img {
-        margin: 1px 0 0 0;
-    }
-}
-
 .footer-info {
-    padding: 20px 0 23px 0;
+    padding: 0 0 23px 0;
     clear: both;
     font-size: 12px;
     color: $whiteButnColor;
@@ -6886,21 +6873,8 @@ li.fancybox-thumbs-loading {
     //footer
     .footer-subscribe {
         padding: 21px 0 18px 0;
-        @include clear;
-        
-        p {
-            float: none;
-            width: 100%;
-            max-width: 290px;
-            margin: 0 auto 11px auto;
-            font-size: 10px;
-            line-height: 14px;
-            text-align: center;
-        }
         
         form {
-            float: none;
-            width: 100%;
             height: 30px;
         }
         
@@ -6935,28 +6909,8 @@ li.fancybox-thumbs-loading {
         }
     }
     
-    .footer-payment,
-    .footer-social {
-        float: none;
-        width: 100%;
-        text-align: center;
-        padding: 0 0 17px 0;
-    }
-    
-    .footer-payment {
-        padding: 0;
-        
-        .icon:first-child ~ .icon {
-            margin: 0 0 0 5px;
-        }
-    }
-    
-    .footer-info {
+    .footer-info,.footer-bottom {
         font-size: 10px;
-        
-        mark {
-            display: block;
-        }
     }
     // end of footer
     
